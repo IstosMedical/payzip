@@ -16,14 +16,17 @@
   </header>
 
   <main>
-    <h2>Track Expenses & Initiate Payments</h2>
+    <h2>Manage Your Office Expenses</h2>
+  
+    <!-- Expense Form -->
     <form id="expenseForm">
       <input type="text" id="desc" placeholder="Expense Description" required>
-      <input type="number" id="amount" placeholder="Amount" required>
+      <input type="number" id="amount" placeholder="Amount (INR)" required>
       <button type="submit">Add Expense</button>
     </form>
-
-    <button onclick="initiatePayment()">Pay with Razorpay</button>
+  
+    <!-- Razorpay Payment Button -->
+    <button class="pay-btn" onclick="initiatePayment()">Initiate Payment</button>
   </main>
 
   <script src="app.js"></script>
