@@ -2,8 +2,8 @@ const functions = require("firebase-functions");
 const Razorpay = require("razorpay");
 
 const razorpay = new Razorpay({
-  key_id: "YOUR_RAZORPAY_KEY_ID",
-  key_secret: "YOUR_RAZORPAY_SECRET"
+  key_id: "rzp_test_SYcndNThCPiTiA",
+  key_secret: "kL6i9yYrrmvmk1akghhj6WMY"
 });
 
 // Cloud Function to create Razorpay order
