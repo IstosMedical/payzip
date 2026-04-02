@@ -4,7 +4,7 @@ async function initiatePayment() {
   const orderData = await response.json();
 
   const options = {
-    key: "YOUR_RAZORPAY_KEY_ID",
+    key: "rzp_test_SYcndNThCPiTiA",
     amount: orderData.amount,
     currency: "INR",
     name: "PayZip",
@@ -14,8 +14,8 @@ async function initiatePayment() {
       alert("Payment successful: " + response.razorpay_payment_id);
     },
     prefill: {
-      email: "user@example.com",
-      contact: "9999999999"
+      email: "mazhar@istos.in",
+      contact: "9739868668"
     }
   };
 
