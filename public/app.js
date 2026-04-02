@@ -1,11 +1,11 @@
 // Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_FIREBASE_API_KEY",
-  authDomain: "payzip.firebaseapp.com",
-  projectId: "payzip",
-  storageBucket: "payzip.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyC9WCe-zobgwx9QIK_wb8aDkJ1tcN-x1dA",
+  authDomain: "payzip-42993.firebaseapp.com",
+  projectId: "payzip-42993",
+  storageBucket: "payzip-42993.firebasestorage.app",
+  messagingSenderId: "1007138462232",
+  appId: "1:1007138462232:web:a404d5a4e4fbea648d816d"
 };
 
 // Initialize Firebase
